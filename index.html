@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ürün Listeleme</title>
+  <link rel="stylesheet" href="assets/css/urunListe.css">
+  <script src="assets/js/urunListe.js" defer></script>
+</head>
+
+<body>
+  <div class="container">
+    <form class="product">
+      <label for="name"> Ürün Adı</label>
+      <input type="text" name="name">
+
+      <label for="price"> Ürün Fiyatı</label>
+      <input type="number" name="price">
+
+      <label for="category">Ürün Kategorisi Seçiniz</label>
+      <select name="category" id="film">
+        <option disabled selected value="">Bir kategori seçiniz</option>
+        <option value="Elektronik">Elektronik</option>
+        <option value="Giyim">Giyim</option>
+        <option value="Teknoloji">Teknoloji</option>
+        <option value="Ev ve Mutfak">Ev ve Mutfak</option>
+        <option value="Aksesuarlar">Aksesuarlar</option>
+      </select>
+
+      <label for="description"> Ürün Açıklaması</label>
+      <input type="text" name="description">
+
+      <label for="image"> Görsel</label>
+      <input type="text" name="image">
+
+      <button type="submit">Ekle</button>
+    </form>
+    <button id="addData">Örnek Ekle</button>
+    <button class="clearStorage">Storage Temizle</button>
+
+
+    <div class="productList">
+      <h1>Elektronik:</h1>
+      <div class="electronic"></div>
+      <h1>Giyim:</h1>
+      <div class="clothes"></div>
+      <h1>Teknoloji:</h1>
+      <div class="technology"></div>
+      <h1>Ev ve Mutfak:</h1>
+      <div class="HomeAndKitchen"></div>
+      <h1>Aksesuarlar:</h1>
+      <div class="Accessories"></div>
+    </div>
+  </div>
+
+</body>
+
+</html>

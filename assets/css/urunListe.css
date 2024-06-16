@@ -1,0 +1,162 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+input,
+textarea,
+select {
+  border-radius: 16px;
+  padding: 8px;
+  border: none;
+  background-color: antiquewhite;
+}
+
+
+
+button:hover {
+  cursor: pointer;
+  background-color: black;
+  color: antiquewhite;
+
+}
+
+.filmAdd [type="file"] {
+  border-radius: 16px;
+  border: none;
+}
+
+button {
+  border: none;
+  border-radius: 16px;
+  padding-block: 8px;
+}
+
+.container {
+  font-family: system-ui;
+  margin: 0 auto;
+}
+
+label {
+  font-size: 24px;
+  font-weight: 500;
+  color: rgb(146, 15, 15);
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  gap: 10px;
+  background-color: lightgrey;
+  padding: 24px;
+}
+
+img {
+  width: 120px;
+  border-radius: 16px;
+}
+
+.productList h1 {
+  color: red;
+}
+
+.productBox {
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  padding: 16px;
+  background-color: rgb(123, 105, 105);
+  margin: 0 auto;
+  color: white;
+}
+
+.productBox h2 {
+  color: rgb(98, 24, 24);
+}
+
+.productBox:hover {
+  background-color: rgb(93, 37, 37);
+}
+
+.productBox:hover h2{
+  color: rgb(245, 245, 245);
+}
+
+
+.electronic {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-inline: 8px;
+  width: 50%;
+}
+
+.clothes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-inline: 8px;
+  width: 50%;
+}
+
+
+.technology {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-inline: 8px;
+  width: 50%;
+}
+
+.HomeAndKitchen {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-inline: 8px;
+  width: 50%;
+}
+
+.Accessories {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-inline: 8px;
+  width: 50%;
+}
