@@ -93,8 +93,16 @@ img {
   border-radius: 16px;
 }
 
+.productList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 0 auto;
+}
+
 .productList h1 {
   color: red;
+  text-align: center;
 }
 
 .productBox {
@@ -105,6 +113,7 @@ img {
   background-color: rgb(123, 105, 105);
   margin: 0 auto;
   color: white;
+  width: 300px;
 }
 
 .productBox h2 {
@@ -125,7 +134,7 @@ img {
   grid-template-columns: repeat(2, 1fr);
   gap: 16px;
   margin-inline: 8px;
-  width: 50%;
+  margin:  0 auto;
 }
 
 .clothes {
@@ -133,7 +142,8 @@ img {
   grid-template-columns: repeat(2, 1fr);
   gap: 16px;
   margin-inline: 8px;
-  width: 50%;
+  margin:  0 auto;
+
 }
 
 
@@ -142,7 +152,8 @@ img {
   grid-template-columns: repeat(2, 1fr);
   gap: 16px;
   margin-inline: 8px;
-  width: 50%;
+  margin:  0 auto;
+
 }
 
 .HomeAndKitchen {
@@ -150,7 +161,8 @@ img {
   grid-template-columns: repeat(2, 1fr);
   gap: 16px;
   margin-inline: 8px;
-  width: 50%;
+  margin:  0 auto;
+
 }
 
 .Accessories {
@@ -158,5 +170,6 @@ img {
   grid-template-columns: repeat(2, 1fr);
   gap: 16px;
   margin-inline: 8px;
-  width: 50%;
+  margin:  0 auto;
+
 }
